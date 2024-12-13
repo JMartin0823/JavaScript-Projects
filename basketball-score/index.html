@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <style>
+            @import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
+            @import url('https://fonts.cdnfonts.com/css/verdana');
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="column">
+                <h3>HOME</h3>
+                <p id="home-score">0</p>
+                <div class="add-btn">
+                    <button onclick="add1H()">+1</button>
+                    <button onclick="add2H()">+2</button>
+                    <button onclick="add3H()">+3</button>
+                </div>
+            </div>
+            <button onclick="restart()" id="reset"><img src="https://static.thenounproject.com/png/299645-200.png" alt="reset"></button>
+            <div class="column">
+                <h3>GUEST</h3>
+                <p id="guest-score">0</p>
+                <div class="add-btn">
+                    <button onclick="add1G()">+1</button>
+                    <button onclick="add2G()">+2</button>
+                    <button onclick="add3G()">+3</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,78 @@
+body {
+    margin-top: 10%;
+    background-color: #1F2937;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    max-width: 378px;
+    margin: 0;
+}
+
+h1 {
+    font-family: "Karla", sans-serif;
+    font-weight: 800;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+span {
+    color: #4ADF86;
+}
+
+p {
+    font-family: "Inter", sans-serif;
+    font-weight: 100;
+    color: white;
+    font-size: 16px;
+    margin: 0;
+}
+
+button {
+    width: 191px;
+    height: 42px;
+    background-color: #10B981;
+    border: none;
+    border-radius: 6px;
+    color: #273549;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 51px 0 35px 0;
+}
+
+.top-content {
+    border-bottom: 1px solid #2F3E53;
+    width: 450px;
+}
+
+.passwords {
+    margin: 35px 0 115px 0;
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+    justify-content: space-between;
+}
+
+#pass-1,
+#pass-2 {
+    background-color: #273549;
+    width: 211px;
+    height: 39px;
+    border: none;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #10B981;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}

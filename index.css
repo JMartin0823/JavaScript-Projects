@@ -1,0 +1,148 @@
+body, html{
+    margin: 0;
+    font-family: "Poppins", serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    margin-top: 70px;
+}
+
+h1{
+    font-family: "Poppins", serif;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: #2c2c2c;
+}
+
+.header{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+
+#item{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #2c2c2c1a;
+}
+
+#container{
+    background-color: rgba(240, 248, 255, 0.384);
+    border-radius: 5px;
+    border-top: 2px solid #2c2c2c1a;
+    border-left: 2px solid #2c2c2c1a;
+    border-right: 2px solid #2c2c2c1a;
+    margin-top: 70px;
+    width: 500px;
+}
+
+p{
+    margin: 10px 20px;
+    width: 200px;
+    align-self: center;
+    text-align: start;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+}
+
+#remove{
+    margin: 10px 10px;
+    align-self: center;
+    background-color: transparent;
+    border: 2px solid rgb(252, 114, 114);
+    color: rgb(252, 114, 114);
+    font-weight: 600;
+    padding: 2px 5px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: "Poppins", serif;
+}
+
+input[type="number"] {
+    padding: 10px;
+    width: 70px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: "Poppins", serif;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Poppins", serif;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#total{
+    font-family: "Poppins", serif;
+    font-weight: 900;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#total p{
+    width: fit-content;
+}
+
+#total-value{
+    color: rgb(3, 194, 3);
+}
+
+@media (max-width: 430px) {
+
+    html, body{
+        margin: 0;
+    }
+
+    h1{
+        margin: 50px auto;
+    }
+
+    main{
+        max-width: 430px;
+    }
+
+    p {
+        align-self: center;
+        margin: 10px 20px;
+        text-align: start;
+    }
+
+    #container, #total, .header {
+        width: 380px;
+    }
+
+    button{
+        padding: 5px 10px;
+    }
+
+    input[type="text"]{
+        width: 150px;
+    }
+    
+    input[type="number"]{
+        width: 70px;
+    }
+        
+    }

@@ -11,7 +11,7 @@ A secure password generator tool that creates strong and customizable passwords 
 
 ## 🚀 Live Demo
 
-[Click here to view the deployed project.](#)
+[Click here to view the deployed project.](https://pass-generator-jmle.netlify.app/)
 
 ## 📂 Project Structure
 

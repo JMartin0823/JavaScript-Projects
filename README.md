@@ -33,13 +33,16 @@ A simple, user-friendly application for keeping track of items in a basket. This
 ## 📜 How to Use
 
 1. Clone the repository:
-    bash
-    git clone <repository-url>
+    ```bash
+    git clone https://github.com/JMartin0823/JavaScript-projects.git
+    ```
 
 2. Navigate to the project directory:
-    cd basket-counter
+    ```bash
+    cd unit-converter
+    ```
 
-3. Open index.html in your browser to view the project.
+3. Open `index.html` in your browser to view the project.
 
 
 ## 💡 What I Learned

@@ -1,19 +1,50 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# 📸 Oldagram
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+A retro-style photo-sharing app that mimics social media platforms with a unique aesthetic. This project showcases dynamic rendering of posts and user interactions using JavaScript.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+## 🛠 Features
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+- Display user posts dynamically with captions and likes.
+- Like photos with a single click.
+- Responsive design for viewing on different devices.
+- Simple and user-friendly interface.
 
-Happy Coding!
+## 🚀 Live Demo
+
+[Click here to view the deployed project.](#)
+
+## 📂 Project Structure
+
+- **HTML**: Provides the basic layout for the photo feed.
+- **CSS**: Adds the retro aesthetic and responsive design.
+- **JavaScript**: Implements dynamic rendering of posts and interactive features like liking photos.
+
+## 🧰 Technologies Used
+
+- **HTML5**
+- **CSS3**
+- **JavaScript (ES6)**
+
+## 📜 How to Use
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/JMartin0823/JavaScript-projects.git
+    ```
+
+2. Navigate to the project directory:
+    ```bash
+    cd oldagram
+    ```
+
+3. Open `index.html` in your browser to view the project.
+
+## 💡 What I Learned
+
+- Rendering dynamic content based on data arrays.
+- Implementing like buttons and updating UI states in real-time.
+- Crafting a visually appealing retro-style design.
+
+## 🤝 Contributing
+
+Contributions are welcome! If you have any suggestions or improvements, feel free to submit a pull request.

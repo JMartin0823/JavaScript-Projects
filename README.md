@@ -42,7 +42,7 @@ A practical application for managing income and expenses. The Budget Tracker all
 
 1. Clone the repository:
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/JMartin0823/JavaScript-projects.git
     ```
 
 2. Navigate to the project directory:

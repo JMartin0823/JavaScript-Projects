@@ -11,7 +11,7 @@ A retro-style photo-sharing app that mimics social media platforms with a unique
 
 ## 🚀 Live Demo
 
-[Click here to view the deployed project.](#)
+[Click here to view the deployed project.](https://oldagramjmle.netlify.app/)
 
 ## 📂 Project Structure
 

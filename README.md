@@ -34,7 +34,7 @@ A functional clone of the social media platform X (formerly Twitter). This proje
 
 1. Clone the repository:
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/JMartin0823/JavaScript-projects.git
     ```
 
 2. Navigate to the project directory:

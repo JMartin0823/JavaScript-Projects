@@ -3,11 +3,6 @@
 A simple, user-friendly application for keeping track of items in a basket. This project demonstrates the use of JavaScript for dynamic UI updates, providing a practical example of DOM manipulation and state management.
 
 
-
----
-
-
-
 ## 🛠 Features
 
 - Increment and decrement item count dynamically.
@@ -16,19 +11,9 @@ A simple, user-friendly application for keeping track of items in a basket. This
 - Lightweight and responsive design.
 
 
-
----
-
-
-
 ## 🚀 Live Demo
 
 [Click here to view the deployed project.](https://counter-bskt.netlify.app/)
-
-
-
----
-
 
 
 ## 📂 Project Structure
@@ -38,21 +23,11 @@ A simple, user-friendly application for keeping track of items in a basket. This
 - **JavaScript**: Implements the functionality for incrementing, decrementing, and resetting the counter.
 
 
-
----
-
-
-
 ## 🧰 Technologies Used
 
 - **HTML5**
 - **CSS3**
 - **JavaScript (ES6)**
-
-
-
----
-
 
 
 ## 📜 How to Use
@@ -67,21 +42,11 @@ A simple, user-friendly application for keeping track of items in a basket. This
 3. Open index.html in your browser to view the project.
 
 
-
----
-
-
-
 ## 💡 What I Learned
 
 - Dynamic DOM manipulation using JavaScript.
 - Managing state within a small-scale application.
 - Creating a simple and responsive UI.
-
-
-
----
-
 
 
 ## 🤝 Contributing

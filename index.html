@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Generator</title>
     <link rel="stylesheet" href="index.css">
-    <script src="index.js"></script>
+    <script src="index.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -24,8 +24,8 @@
             <button id="generate-btn">Generate passwords</button>
         </div>
         <div class="passwords">
-            <p id="pass-1"></p>
-            <p id="pass-2"></p>
+            <p id="pass-1" class="password" data-password=""></p>
+            <p id="pass-2" class="password" data-password=""></p>
         </div>
     </div>
 </body>

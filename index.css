@@ -75,4 +75,27 @@ button {
     font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#pass-1:hover,
+#pass-2:hover {
+    background-color: #10B981;
+    color: #273549;
+}
+
+.copied {
+    color: green;
+    font-weight: bold;
+    animation: fade 1s ease-out;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.5;
+    }
 }

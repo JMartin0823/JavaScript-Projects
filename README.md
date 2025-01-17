@@ -11,9 +11,13 @@ A practical application for managing income and expenses. The Budget Tracker all
 - Lightweight and responsive design.
 
 
+
+
 ## 🚀 Live Demo
 
 [Click here to view the deployed project.](https://budgettracker0823.netlify.app/)
+
+
 
 
 ## 📂 Project Structure
@@ -23,11 +27,15 @@ A practical application for managing income and expenses. The Budget Tracker all
 - **JavaScript**: Implements dynamic functionality for adding, removing, and calculating budget entries.
 
 
+
+
 ## 🧰 Technologies Used
 
 - **HTML5**
 - **CSS3**
 - **JavaScript (ES6)**
+
+
 
 
 ## 📜 How to Use
@@ -45,11 +53,15 @@ A practical application for managing income and expenses. The Budget Tracker all
 3. Open `index.html` in your browser to view the project.
 
 
+
+
 ## 💡 What I Learned
 
 - Managing dynamic lists and user input with JavaScript.
 - Implementing simple financial calculations in a web app.
 - Creating an intuitive and responsive user interface.
+
+
 
 
 ## 🤝 Contributing

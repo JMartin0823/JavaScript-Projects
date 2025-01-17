@@ -1,4 +1,4 @@
-# Basket Counter
+# 🏀 Basket Counter
 
 A simple, user-friendly application for keeping track of items in a basket. This project demonstrates the use of JavaScript for dynamic UI updates, providing a practical example of DOM manipulation and state management.
 

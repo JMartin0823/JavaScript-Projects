@@ -1,0 +1,231 @@
+/* 🌿 Global Variables */
+:root {
+    --primary-color: #29D884;
+    --secondary-color: #2d2d2d;
+    --border-color: #2d2d2d13;
+    --font: "Inter", serif;
+    --button-radius: 50px;
+    --card-radius: 20px;
+    --padding: 5%;
+}
+
+/* 🏠 Global Styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: var(--font);
+}
+
+/* 🌟 Header */
+.header {
+    background-image: url('/banner-img.jpg');
+    background-size: cover;
+    height: min(6vw, 115px);
+}
+
+/* 📦 Main Container */
+main {
+    overflow: hidden;
+    width: clamp(320px, 30vw, 600px);
+    border: 1px solid var(--border-color);
+    border-radius: 5%;
+    position: relative;
+}
+
+/* 🛒 Menu Items */
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--padding);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.item-inner {
+    display: flex;
+    align-items: center;
+    gap: clamp(10px, 3vw, 30px);
+}
+
+.item-details {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.emoji {
+    scale: 2.5;
+    margin: 0 0 0 4%;
+}
+
+/* 🎨 Typography */
+.item-title{
+    font-size: clamp(12px, 1vw, 20px);
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+
+.total h2{
+    font-size: clamp(12px, 1vw, 20px);
+    font-weight: 800;
+    color: var(--secondary-color);
+}
+
+.item-ingredients {
+    font-size: clamp(10px, 0.8vw, 18px);
+    font-weight: 200;
+    opacity: 70%;
+}
+
+.item-price {
+    font-size: clamp(10px, 0.8vw, 18px);
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+/* ➕ Add & Active Buttons */
+.add, .active {
+    border: 1px solid var(--border-color);
+    width: clamp(30px, 3vw, 50px);
+    height: clamp(30px, 3vw, 50px);
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.add p, .active p {
+    font-size: clamp(1rem, 2vw, 2.5rem);
+    font-weight: 200;
+    margin: 0;
+    line-height: 1;
+}
+
+.active {
+    background-color: var(--primary-color);
+}
+
+.active p {
+    color: white;
+}
+
+/* 📋 Order Summary */
+#order-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--padding);
+}
+
+#order-container h1 {
+    font-size: clamp(14px, 1vw, 24px);
+    font-weight: 600;
+}
+
+/* 🛍 Order Items */
+.order-overview {
+    width: 100%;
+}
+
+.order-items {
+    width: 100%;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.order-item, .total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order-item h1, .order-item p {
+    margin: 0;
+    color: var(--secondary-color);
+}
+
+.order-item p {
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+/* ✅ Order Buttons */
+#order-container button,
+.checkout .submit {
+    padding: 4% 8%;
+    background-color: var(--primary-color);
+    border-radius: var(--button-radius);
+    width: 100%;
+    color: #ffffff;
+    font-size: clamp(12px, 1vw, 18px);
+    font-weight: 600;
+    border: none;
+    margin: 3% 0;
+    cursor: pointer;
+}
+
+.checkout .submit {
+    background-color: black;
+}
+
+/* 💳 Checkout Form */
+.checkout {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.4);
+    gap: 24px;
+    width: clamp(320px, 80%, 600px);
+    padding: 16px;
+    z-index: 3;
+    border-radius: var(--card-radius);
+}
+
+.checkout h1 {
+    font-size: clamp(16px, 1.5vw, 28px);
+    text-align: center;
+}
+
+/* 📝 Input Fields */
+.input-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.input-fields input {
+    padding: 16px;
+    border-radius: 10px;
+    border: 1px solid var(--border-color);
+}
+
+/* 📝 Confirmation Message */
+.message {
+    color: var(--secondary-color);
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: 1px solid var(--primary-color);
+}
+
+.message span {
+    color: var(--primary-color);
+}
+
+/* 🚀 Utility Classes */
+.hide {
+    display: none;
+}

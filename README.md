@@ -12,7 +12,7 @@ An interactive **restaurant ordering system** that allows users to select and cu
 
 ## 🚀 Live Demo  
 
-[Click here to view the deployed project.](#)
+[Click here to view the deployed project.](https://orderingapp-jmle.netlify.app/)
 
 ## 📂 Project Structure  
 

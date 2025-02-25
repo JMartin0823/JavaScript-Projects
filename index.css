@@ -1,0 +1,62 @@
+:root {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 1rem;
+}
+
+form #submit,
+#mode {
+	padding: 12px 20px;
+	color: #2d2d2d;
+	background-color: transparent;
+	border: 1px solid rgba(0, 0, 0, 0.244);
+	border-radius: 50px;
+	text-align: left;
+}
+
+form #color-picker {
+	color: #2d2d2d;
+	background-color: transparent;
+	border: 1px solid rgba(0, 0, 0, 0.244);
+	width: 80px;
+	height: 40px;
+}
+
+.color {
+	display: flex;
+	flex-direction: column;
+}
+
+#code {
+	font-size: 12px;
+}
+
+#palette {
+	display: flex;
+	width: 80%;
+	height: auto;
+	align-items: center;
+	justify-content: space-between;
+	margin: 4em auto;
+	gap: 0;
+}
+
+.color-bkg {
+	height: 100px;
+	width: 100%;
+	min-width: 64px;
+	border-radius: 15px;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10%;
+}
+
+header form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1em;
+}

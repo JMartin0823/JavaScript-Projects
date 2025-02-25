@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="index.css" />
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Color Palette Generator</title>
+	</head>
+	<body>
+		<header>
+			<form>
+				<input type="color" id="color-picker" />
+				<select name="type" id="mode">
+					<option value="monochrome">Monochrome</option>
+					<option value="monochrome-dark">Monochrome Dark</option>
+					<option value="monochrome-light">Monochrome Light</option>
+					<option value="analogic">Analogic</option>
+					<option value="complement">Complement</option>
+					<option value="analogic-complement">Analogic Complement</option>
+					<option value="triad">Triad</option>
+					<option value="quad">Quad</option>
+				</select>
+				<input id="submit" type="submit" value="Generate" />
+			</form>
+		</header>
+		<main>
+			<div id="palette"></div>
+		</main>
+		<script src="index.js" type="module"></script>
+	</body>
+</html>

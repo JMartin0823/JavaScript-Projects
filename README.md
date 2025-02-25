@@ -12,7 +12,7 @@ from an external API to provide users with various color scheme options.
 
 ## 🚀 Live Demo
 
-[Click here to view the deployed project.](#)
+[Click here to view the deployed project.](jmle-colorpalette-generator.netlify.app)
 
 ## 📂 Project Structure
 

@@ -24,7 +24,6 @@ document.addEventListener('DOMContentLoaded', () => {
 				let colorPalette = data.colors.map((color) => {
 					return color.hex.clean
 				})
-				console.log(colorPalette)
 				render(colorPalette)
 			})
 	})

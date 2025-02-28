@@ -1,0 +1,35 @@
+{
+	"name": "javascript-projects",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"dependencies": {
+		"esbuild": "^0.24.2",
+		"fsevents": "^2.3.3",
+		"nanoid": "^3.3.8",
+		"picocolors": "^1.1.1",
+		"postcss": "^8.5.3",
+		"rollup": "^4.34.8",
+		"source-map-js": "^1.2.1"
+	},
+	"devDependencies": {
+		"vite": "^6.2.0"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/JMartin0823/JavaScript-Projects.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/JMartin0823/JavaScript-Projects/issues"
+	},
+	"homepage": "https://github.com/JMartin0823/JavaScript-Projects#readme"
+}

@@ -32,13 +32,13 @@ from an external API to provide users with various color scheme options.
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/JMartin0823/Color-Palette-Generator.git
+    git clone https://github.com/JMartin0823/JavaScript-Projects.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd color-palette-generator
+    cd JavaScript-Projects
     ```
 
 3. Open `index.html` in your browser to use the application.
